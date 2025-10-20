@@ -1,1 +1,20 @@
-.venv
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor metadata
+.vscode/
+.idea/
+
+images/*
+image_palette.png

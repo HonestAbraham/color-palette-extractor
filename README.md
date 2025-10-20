@@ -44,6 +44,9 @@ It’s perfect for designers, developers, and creators who want to quickly build
 | `--show`                                  | Show preview windows (requires Matplotlib)       | `--show`                       |
 | `--no-ignore-white` / `--no-ignore-black` | Keep white or black pixels                       | `--no-ignore-white`            |
 
+python palette_extractor.py flower.jpg --auto-k --css --json --posterize
+---
+
 
 ## ⚙️ Installation
 
