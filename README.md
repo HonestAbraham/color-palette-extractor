@@ -31,6 +31,20 @@ It’s perfect for designers, developers, and creators who want to quickly build
 
 ---
 
+| Flag                                      | Description                                      | Example                        |
+| ----------------------------------------- | ------------------------------------------------ | ------------------------------ |
+| `-k N` / `--colors N`                     | Number of colors to extract                      | `--colors 6`                   |
+| `--auto-k`                                | Automatically choose best number of colors       | `--auto-k --k-min 4 --k-max 8` |
+| `--space {lab,rgb,hsv}`                   | Color space for clustering (`lab` is best)       | `--space lab`                  |
+| `--order {percent_desc,luminance,chroma}` | How to order the palette                         | `--order luminance`            |
+| `--max-dim N`                             | Downscale image for speed                        | `--max-dim 1024`               |
+| `--css`                                   | Save CSS file with color variables               | `--css`                        |
+| `--json`                                  | Save JSON file with color data                   | `--json`                       |
+| `--posterize`                             | Save recolored (posterized) version of the image | `--posterize`                  |
+| `--show`                                  | Show preview windows (requires Matplotlib)       | `--show`                       |
+| `--no-ignore-white` / `--no-ignore-black` | Keep white or black pixels                       | `--no-ignore-white`            |
+
+
 ## ⚙️ Installation
 
 From the project root (where `palette_extractor.py` lives):
